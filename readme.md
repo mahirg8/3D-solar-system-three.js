@@ -1,36 +1,100 @@
-# ![Solar System](https://ankitjha2603.github.io/solar-system3D/image/solar-system.png) Solar System 3D Visualization using Three.js
+# 🌌 3D Solar System Visualization using Three.js
 
-Explore the wonders of our Solar System in an immersive 3D experience! Witness the rotation of planets around the Sun and their self-rotation in this interactive web-based application developed using Three.js.
+This project is a stunning and interactive **3D visualization of our solar system**, built using [Three.js](https://threejs.org/). It displays realistic planets orbiting the sun with self-rotation, planetary rings, revolution speeds, and a star-filled background. It also comes with GUI controls for customization.
 
-![](https://ankitjha2603.github.io/solar-system3D/gif/display.gif)
+---
 
-## Table of Contents
+## 🚀 Features
 
-1. [Introduction](#1-introduction)
-2. [Project Overview](#2-project-overview)
-3. [Features](#5-features)
+- Realistic sun and planets with textures
+- Planetary orbits and self-rotation
+- Saturn and Uranus with rings
+- Interactive GUI controls (rotation/revolution speed, orbit visibility, light mode)
+- Animated stars in the background
+- Responsive to window size
 
-## 1. Introduction
+---
 
-The Solar System 3D Visualization project is an interactive web-based application that allows users to explore the Solar System in a three-dimensional environment. The project is developed using the Three.js library, which provides powerful tools for creating 3D content on the web. Users can witness the rotation of planets around the Sun and their self-rotation, as well as enjoy the beauty of space in this immersive experience.
+## Deployed App Link: `https://3d-solar-system-threejs.netlify.app/`
 
-## 2. Project Overview
+## 📁 Project Structure
+solar-system/
+├── index.html # Main HTML file
+├── js/
+│ └── solarSystem.js # Main JavaScript logic using Three.js
+├── min.js/
+│ └── dat.gui.min.js # dat.GUI for controls
+├── image/ # Textures for planets, rings, background
+│ ├── sun.jpg
+│ ├── mercury.jpg
+│ ├── venus.jpg
+│ ├── earth.jpg
+│ ├── mars.jpg
+│ ├── jupiter.jpg
+│ ├── saturn.jpg
+│ ├── uranus.jpg
+│ ├── neptune.jpg
+│ ├── pluto.jpg
+│ ├── saturn_ring.png
+│ ├── uranus_ring.png
+│ ├── stars.jpg
+│ └── solar-system.png
+└── readme.md # You're here!
 
-The project consists of an HTML file that sets up the web page, loads required libraries, and defines the basic structure. The main JavaScript file, `solarSystem.js`, contains the code that creates the 3D scene, loads textures for planets and space, and handles the animation and interactivity.
 
-## 3. Features
 
-- Realistic 3D visualization of the Solar System.
-- Interactive controls to explore the planets and their orbits.
 
-#### Speed Control
+---
 
-You can adjust the animation speed to your preference. The `speed` slider in the GUI allows you to control the rate at which the planets rotate and move around the Sun. Slide it to the right to speed up the animation and to the left to slow it down.
+## ⚙️ How to Run the Project
 
-#### Show/Hide Planet Paths
+### ✅ Option 1: Using Live Server (Recommended)
+1. Make sure you have [Visual Studio Code](https://code.visualstudio.com/) installed.
+2. Install the "Live Server" extension.
+3. Right-click `index.html` and select **"Open with Live Server"**.
+4. Your default browser will open the 3D Solar System.
 
-The application provides an option to show or hide the paths of the planets as they orbit around the Sun. By enabling the "Show path" toggle in the GUI, you can visualize the trajectories of the planets. Disabling it will hide the paths, allowing for a cleaner view of the Solar System.
+### ✅ Option 2: Localhost with Python (Alternative)
+1. Open terminal in the project root folder.
+2. Run a local server:
+   - For Python 3:  
+     ```bash
+     python -m http.server
+     ```
+   - For Python 2:
+     ```bash
+     python -m SimpleHTTPServer
+     ```
+3. Open your browser and go to:  
+   `http://localhost:8000`
 
-#### Realistic Lighting
+### ✅ Option 3: GitHub Pages (Online Hosting)
+1. Push your project to a GitHub repository.
+2. Go to **Settings > Pages**.
+3. Set source as root or `/main` branch.
+4. After deployment, open the generated URL.
 
-The "Real view" option in the GUI replicates the conditions in space, where parts of the planets facing away from the Sun are not illuminated and appear darker. When enabled, the application adjusts the lighting to create a more realistic representation of the planets' appearance.
+---
+
+## 🖼️ Screenshots
+
+> *(Optional: Add screenshots here)*  
+> Example: `C:\Users\Dell\Videos\Captures\solar.mp4`
+
+---
+
+## 🧠 Concepts Used
+
+- **Three.js** WebGL 3D engine
+- PerspectiveCamera, SphereGeometry, RingGeometry
+- OrbitControls for navigation
+- PointLight, AmbientLight for realistic lighting
+- TextureLoader for planet maps
+- `dat.GUI` for real-time parameter editing
+- Particles and BufferGeometry for stars
+
+---
+
+### 🌟 Enjoy Exploring the Universe!
+
+

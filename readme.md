@@ -18,28 +18,32 @@ This project is a stunning and interactive **3D visualization of our solar syste
 ## Deployed App Link: `https://3d-solar-system-threejs.netlify.app/`
 
 ## 📁 Project Structure
-solar-system/
-├── index.html # Main HTML file
-├── js/
-│ └── solarSystem.js # Main JavaScript logic using Three.js
-├── min.js/
-│ └── dat.gui.min.js # dat.GUI for controls
-├── image/ # Textures for planets, rings, background
-│ ├── sun.jpg
-│ ├── mercury.jpg
-│ ├── venus.jpg
-│ ├── earth.jpg
-│ ├── mars.jpg
-│ ├── jupiter.jpg
-│ ├── saturn.jpg
-│ ├── uranus.jpg
-│ ├── neptune.jpg
-│ ├── pluto.jpg
-│ ├── saturn_ring.png
-│ ├── uranus_ring.png
-│ ├── stars.jpg
-│ └── solar-system.png
-└── readme.md # You're here!
+project: solar-system
+files:
+  - index.html
+  - readme.md
+  - font.json
+folders:
+  image:
+    - earth.jpg
+    - jupiter.jpg
+    - mars.jpg
+    - mercury.jpg
+    - neptune.jpg
+    - pluto.jpg
+    - saturn.jpg
+    - saturn_ring.png
+    - solar-system.png
+    - stars.jpg
+    - sun.jpg
+    - uranus.jpg
+    - uranus_ring.png
+    - venus.jpg
+  js:
+    - solarSystem.js
+  min.js:
+    - dat.gui.min.js
+
 
 
 
@@ -76,12 +80,6 @@ solar-system/
 
 ---
 
-## 🖼️ Screenshots
-
-> *(Optional: Add screenshots here)*  
-> Example: `C:\Users\Dell\Videos\Captures\solar.mp4`
-
----
 
 ## 🧠 Concepts Used
 

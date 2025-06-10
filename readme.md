@@ -18,31 +18,32 @@ This project is a stunning and interactive **3D visualization of our solar syste
 ## Deployed App Link: `https://3d-solar-system-threejs.netlify.app/`
 
 ## 📁 Project Structure
-project: solar-system
-files:
-  - index.html
-  - readme.md
-  - font.json
-folders:
-  image:
-    - earth.jpg
-    - jupiter.jpg
-    - mars.jpg
-    - mercury.jpg
-    - neptune.jpg
-    - pluto.jpg
-    - saturn.jpg
-    - saturn_ring.png
-    - solar-system.png
-    - stars.jpg
-    - sun.jpg
-    - uranus.jpg
-    - uranus_ring.png
-    - venus.jpg
-  js:
-    - solarSystem.js
-  min.js:
-    - dat.gui.min.js
+project_structure: |
+  SOLAR-SYSTEM/
+  ├── image/
+  │   ├── earth.jpg
+  │   ├── jupiter.jpg
+  │   ├── mars.jpg
+  │   ├── mercury.jpg
+  │   ├── neptune.jpg
+  │   ├── pluto.jpg
+  │   ├── saturn.jpg
+  │   ├── saturn_ring.png
+  │   ├── solar-system.png
+  │   ├── stars.jpg
+  │   ├── sun.jpg
+  │   ├── uranus.jpg
+  │   ├── uranus_ring.png
+  │   └── venus.jpg
+  ├── js/
+  │   └── solarSystem.js
+  ├── min.js/
+  │   └── dat.gui.min.js
+  ├── font.json
+  ├── index.html
+  ├── readme.md
+  └── NotoSerifGeorgion.json
+
 
 
 
